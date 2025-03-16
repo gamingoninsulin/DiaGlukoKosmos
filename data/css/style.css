@@ -67,7 +67,7 @@ nav ul li a:hover {
     display: none;
     position: absolute;
     background-color: #C6E4FF;
-    min-width: 160px;
+    min-width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -144,4 +144,25 @@ footer {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain; /* Ensure full image is visible */
+}
+
+.blog-post {
+    border: double black;
+    padding: 0px 15px;
+    border-radius: 1rem;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.intro-blog, span {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center
+}
+h1 {
+    font-size: 4rem;
+    max-width: 100%;
+    text-align: center;
 }
